@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+/*=================== common style section================   */
+body{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.nav-manu, .brand{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+/*================== style for nav part ================ */
+.nav-manu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    border: 2px solid blue;
+}
+.nav-title{
+    width: 302px;
+    height: 53px;
+    font-weight:700;
+    font-size: 30px; 
+    margin-left: 130px;
+    text-align: center;
+    border: 2px solid blue;
+
+
+}
+.nav-manu ul{
+    display: flex;
+    width: 400px;
+    height: 26px;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    margin-right: 150px;
+    border: 2px solid blue;
+}
+.nav-manu li{
+    text-align: center;
+}
+/* =========================style for brand part====================  */
+.brand-info{
+    width: 500px;
+    height: 225px;
+    margin-left: 400px;
+    border: 2px solid rgb(227, 27, 74);
+
+}
+.brand-title h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 8px;
+    
+}
+.brand-title p{
+    font-weight: 400;
+    font-size: 12px; 
+    text-align: center;
+}
+.button{
+   margin-left: 160px;
+   margin-top: 28px;
+}
+button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    border-radius: 15px;
+    background: rgb(243, 138, 58);
+}
+.brand-banner img{
+    width: 950px;
+    height: 550px;
+    margin-left: 180px
+}
