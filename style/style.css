@@ -76,5 +76,33 @@ button{
 .brand-banner img{
     width: 950px;
     height: 550px;
+    margin-bottom: 20px;
     margin-left: 180px
+}
+/*===================== style for feature part ================ */
+.features{
+  display: flex;
+  justify-content: space-between;
+    
+}
+.feature{
+    
+    margin-left: 210px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    border: 2px solid rgb(227, 27, 74);
+}
+.feature img{
+    width: 230px;
+    height: 230px;
+    border: 2px solid rgb(246, 255, 0);
+}
+.feature-info{
+    width: 340px;
+    height: 254px;
+    margin-top: 150px;
+    margin-right: 200px;
+    border: 2px solid rgb(227, 27, 74);
 }
