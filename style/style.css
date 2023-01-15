@@ -340,3 +340,120 @@ button{
 .container-box:hover{
     transform: scale(1.2);
 }
+/*======================== media queries ================ */
+/* -----molibe dives----  */
+@media only screen and (max-width:688px) {
+ .nav-manu{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+ }
+ .nav-title{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+ }
+ .nav-manu ul{
+   width: 100%;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 500px;
+    flex-direction: column;
+ }
+.brand-info{ 
+    width: 100%;
+    margin: 0px;
+}
+.brand-banner img{
+    width: 100%;
+    margin: 0px;
+}  
+.features{
+   
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}  
+.feature{
+    width: 100%;
+    display: grid;
+    margin: 0px;
+    grid-template-columns: repeat(1, 1fr); 
+   justify-items: center;
+   grid-row-gap: 20px;
+}
+.feature img{
+    width: 345px;
+    height: 300px;
+
+}
+.feature-info{
+   margin-top: 10px;
+   margin-left: 90px;
+    
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.container-left{
+    width: 100%;
+    margin: 0px;
+}
+.container-right{
+    width: 100%;
+    margin: 0px;
+}
+.container-title p{
+    width: 250px;
+    
+
+}
+.container-img img{
+   display: none;
+}
+.container-right-btn{
+    margin-top: 300px;
+    margin-left: 90px;
+}
+.fact-info{
+    width: 100%;
+    margin-left: 90px;
+
+}
+.fact-pera p{
+    margin: 0px;
+    width: 100%;
+}
+.achieve{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    row-gap: 10px;
+}
+.sponsor{
+    width: 100%;
+    margin-top: 170px;
+    margin-left: 1px;
+   
+}
+.sponsor-pera{
+    width: 350px;
+    height: 100px;
+   margin-left: 60px;
+}
+.logo ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.contact{
+    display: none;
+}
+.footer{
+    display: none;
+}
+}
