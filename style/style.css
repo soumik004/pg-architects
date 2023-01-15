@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
 /*=================== common style section================   */
 body{
     font-family: 'Work Sans', sans-serif;
@@ -122,7 +123,7 @@ button{
 .container{
     display: flex;
     width: 950px;
-    height: 900px; 
+    height: 1170px; 
     margin-left: 180px; 
     
 }
@@ -180,7 +181,7 @@ button{
 /*================== container right ================ */
 .container-right{
     width: 630px;
-    height: 900px;
+    height: 1000px;
     margin-top: 100px;
     
 }
@@ -204,5 +205,58 @@ button{
 }
 .bnt-style{
     font-size: 25px;
+}
+/* ==================style for footer ====================== */
+.facts{
+    background-color: #FF900E;
+    margin: 25px;
+    border: 2px solid rgb(231, 48, 12);
+}
+.fact-info{
+    width: 542px;
+    height: 200px;
+    margin-left: 180px;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 25px;
+   
+}
+.fact-pera{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    
+}
+/* ===================style for achieve ================= */
+.achieve{
+    display: flex;
+    width: 950px;
+    height: 200px;
+    margin-left: 150px;
+    justify-content: space-evenly;
+}
+.achieve-box{
+    width: 160px;
+    height: 170px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+}
+.achieve-icon{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 195, 42);
+}
+.achieve-box h1{
+    display: flex;
+    margin-left: 65px;
+}
+.achieve-box p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
 }
 
