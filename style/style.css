@@ -154,6 +154,7 @@ button{
     width: 380px;
     height: 130px;
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.08);
+    transition: all 0.1s ease-in-out;
 }
 .container-box h1{
     font-weight: 600;
@@ -241,6 +242,7 @@ button{
     height: 170px;
     border: 1px solid #FF900E;
     border-radius: 8px;
+    transition: all 0.1s ease-in-out;
 
 }
 .achieve-icon{
@@ -330,4 +332,11 @@ button{
 .footer p{
     margin-left: 220px;
 
+}
+/* ==============hover ======== */
+.achieve-box:hover{
+    transform: rotate(45deg);
+}
+.container-box:hover{
+    transform: scale(1.2);
 }
