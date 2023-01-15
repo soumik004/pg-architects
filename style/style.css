@@ -3,10 +3,12 @@
 /*=================== common style section================   */
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
     
 }
 .nav-manu, .brand{
     background: rgba(255, 144, 14, 0.1);
+    
 }
 
 
@@ -14,9 +16,8 @@ body{
 .nav-manu{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+  
     align-items: center;
-    border: 2px solid blue;
 }
 .nav-title{
     width: 302px;
@@ -25,9 +26,6 @@ body{
     font-size: 30px; 
     margin-left: 130px;
     text-align: center;
-    border: 2px solid blue;
-
-
 }
 .nav-manu ul{
     display: flex;
@@ -37,18 +35,19 @@ body{
     align-items: center;
     list-style: none;
     margin-right: 150px;
-    border: 2px solid blue;
 }
 .nav-manu li{
     text-align: center;
 }
 /* =========================style for brand part====================  */
+.brand{
+    margin-top: -25px;
+}
 .brand-info{
     width: 500px;
     height: 225px;
     margin-left: 400px;
-    border: 2px solid rgb(227, 27, 74);
-
+    margin-top: 25px;
 }
 .brand-title h1{
     text-align: center;
@@ -70,6 +69,7 @@ button{
     width: 150px;
     height: 45px;
     color: white;
+    border: none;
     border-radius: 15px;
     background: rgb(243, 138, 58);
 }
@@ -92,17 +92,117 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 50px;
-    border: 2px solid rgb(227, 27, 74);
 }
 .feature img{
     width: 230px;
     height: 230px;
-    border: 2px solid rgb(246, 255, 0);
+    
 }
 .feature-info{
     width: 340px;
-    height: 254px;
+    height: 280px;
     margin-top: 150px;
     margin-right: 200px;
-    border: 2px solid rgb(227, 27, 74);
 }
+.feature-title h1{
+   
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 15px;
+}
+.text-gray{
+    font-weight: 500;
+    color: #727272;
+}
+.text-orang{
+
+    color: #FF900E;
+}
+/* -=============== style for Features you will love & enjoy  =================- */
+.container{
+    display: flex;
+    width: 950px;
+    height: 900px; 
+    margin-left: 180px; 
+    
+}
+/*================== container left ======================== */
+.container-left{
+    width: 630px;
+    height: 700px;
+    margin-top: 100px;
+    
+
+}
+.container-left h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 30px;
+    line-height: 5px;
+    
+}
+.container-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 35px;
+  
+}
+/*-------- style for container box ---------------*/
+.container-box{
+    width: 380px;
+    height: 130px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.08);
+}
+.container-box h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.container-title{
+    margin-left: 20px;
+    margin-bottom: 0px;
+
+}
+.container-pera{
+    margin-left: 20px;
+}
+
+.container-box p{ 
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+
+
+/*================== container right ================ */
+.container-right{
+    width: 630px;
+    height: 900px;
+    margin-top: 100px;
+    
+}
+.container-img img{
+    width: 490px;
+    height: 800px;
+    margin-left: 70px;
+}
+.container-right-btn{
+    
+    line-height: 70px;
+    margin-left: 40px;
+    color: #FF900E;
+}
+.container-right-btn button{
+    font-weight: 700;
+    font-size: 44px;
+    width: 220px;
+    height: 150px;
+
+}
+.bnt-style{
+    font-size: 25px;
+}
+
